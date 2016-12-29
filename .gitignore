@@ -1,0 +1,13 @@
+###OSX###
+.DS_Store
+
+/.idea
+/.settings
+/target
+.classpath
+.project
+*.iml
+*.log
+*.DS_Store
+**/*.DS_Store
+
