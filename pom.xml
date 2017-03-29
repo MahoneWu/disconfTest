@@ -36,8 +36,6 @@
     </dependency>
 
     <!--spring jar包-->
-    <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
-    <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-core</artifactId>
@@ -176,6 +174,11 @@
       <version>0.1</version>
     </dependency>
 
+    <dependency>
+      <groupId>com.baidu.disconf</groupId>
+      <artifactId>disconf-client</artifactId>
+      <version>2.6.31</version>
+    </dependency>
 
   </dependencies>
   <build>
