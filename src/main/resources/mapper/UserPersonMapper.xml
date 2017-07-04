@@ -14,32 +14,6 @@
     <result column="nick_name" property="nickName" jdbcType="VARCHAR" />
     <result column="real_name" property="realName" jdbcType="VARCHAR" />
     <result column="gender" property="gender" jdbcType="TINYINT" />
-    <result column="card_type" property="cardType" jdbcType="SMALLINT" />
-    <result column="card_no" property="cardNo" jdbcType="VARCHAR" />
-    <result column="alipay" property="alipay" jdbcType="VARCHAR" />
-    <result column="reg_source" property="regSource" jdbcType="SMALLINT" />
-    <result column="qq" property="qq" jdbcType="VARCHAR" />
-    <result column="city" property="city" jdbcType="VARCHAR" />
-    <result column="province" property="province" jdbcType="VARCHAR" />
-    <result column="addr" property="addr" jdbcType="VARCHAR" />
-    <result column="community" property="community" jdbcType="VARCHAR" />
-    <result column="deleted" property="deleted" jdbcType="BIT" />
-    <result column="locked" property="locked" jdbcType="BIT" />
-    <result column="user_level" property="userLevel" jdbcType="INTEGER" />
-    <result column="user_integral" property="userIntegral" jdbcType="INTEGER" />
-    <result column="auth_status" property="authStatus" jdbcType="TINYINT" />
-    <result column="user_class" property="userClass" jdbcType="TINYINT" />
-    <result column="car_owned" property="carOwned" jdbcType="VARCHAR" />
-    <result column="user_type" property="userType" jdbcType="VARCHAR" />
-    <result column="bind_type" property="bindType" jdbcType="INTEGER" />
-    <result column="remark" property="remark" jdbcType="VARCHAR" />
-    <result column="avatar_url" property="avatarUrl" jdbcType="VARCHAR" />
-    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
-    <result column="contract_no" property="contractNo" jdbcType="VARCHAR" />
-    <result column="contract_flag" property="contractFlag" jdbcType="BIT" />
-    <result column="alipay_name" property="alipayName" jdbcType="VARCHAR" />
-    <result column="charging_coins" property="chargingCoins" jdbcType="DECIMAL" />
-    <result column="alipay_account" property="alipayAccount" jdbcType="VARCHAR" />
   </resultMap>
 
   <select id="getUserPersonInfoById" parameterType="java.lang.String" resultMap="BaseResultMap">
